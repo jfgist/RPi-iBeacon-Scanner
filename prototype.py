@@ -10,7 +10,7 @@ import sys
 # Twitter Access Token
 # Twitter Token Secret
 # iBeaconID
-twitterConfigFile = '/home/pi/tools/twitter.conf'
+twitterConfigFile = '/home/pi/tools/twitter1.conf'
 params = [line.strip() for line in open(twitterConfigFile)]
 
 # Consumer keys and access tokens, used for OAuth
@@ -19,12 +19,12 @@ if len(params) >= 4:
     consumer_secret = params[1]
     access_token = params[2]
     access_token_secret = params[3]
-	i_beacon_id = params[4]
+    i_beacon_id = params[4]
 
-print consumer_key
-print consumer_secret
-print access_token
-print access_token_secret
+#print consumer_key
+#print consumer_secret
+#print access_token
+#print access_token_secret
 print i_beacon_id
 
 # OAuth process, using the keys and tokens
@@ -38,6 +38,7 @@ tweet_text = "This is Burrito Beacon test tweet"
 
 # conditionally echoing the piped input
 for line in sys.stdin:
+        print line
 	if i_beacon_id in line:
 		if len(tweet_text) <= 140:
 			print tweet_text 
