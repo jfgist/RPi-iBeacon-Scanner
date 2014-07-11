@@ -9,3 +9,7 @@ Requires
 * bc  (sudo apt-get bc)
 * tweepy (sudo apt-get tweepy)
 * 
+
+The iBeacon that I am trying to detect is F9:8E:7F:50:CD:68
+
+I don't need the range and stuff, just if it is in range so I may keep it simple and just look for the mac address.  
