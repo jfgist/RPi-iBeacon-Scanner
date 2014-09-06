@@ -6,7 +6,7 @@ This will probably use ibeacon_scan developed by Radius Networks and then piped 
 will do something with the information.  That something is undefined right now. 
 
 Requires 
-* bc  (sudo apt-get bc)
+* bc  (sudo apt-get install bc)
 * tweepy (sudo apt-get tweepy)
 * 
 
