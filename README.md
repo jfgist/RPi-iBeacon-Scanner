@@ -13,3 +13,9 @@ Requires
 The iBeacon that I am trying to detect is F9:8E:7F:50:CD:68
 
 I don't need the range and stuff, just if it is in range so I may keep it simple and just look for the mac address.  
+
+
+Usage:
+$ cd RPi-iBEacon-Scanner
+$ sudo hciconfig hci0 up
+$ ./ibeacon_scan | sudo python prototype.py
