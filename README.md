@@ -7,7 +7,7 @@ will do something with the information.  That something is undefined right now.
 
 Requires 
 * bc  (sudo apt-get install bc)
-* tweepy (sudo apt-get tweepy)
+* tweepy (sudo apt-get install python-tweepy)
 * 
 
 The iBeacon that I am trying to detect is F9:8E:7F:50:CD:68
